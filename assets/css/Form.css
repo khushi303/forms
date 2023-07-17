@@ -704,7 +704,7 @@ textarea::placeholder {
 .font-sed {
     color: #FFF;
     font-family: 'Poppins', sans-serif;
-    font-size: 64px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: 150.5%;
@@ -718,14 +718,15 @@ textarea::placeholder {
     position: relative;
 }
 
-.dis-infl {
-    display: inline-flex;
-}
 
 .pos-a {
     position: absolute;
     right: 0;
-    top: 44%;
+    top: 50%;
+}
+
+.dis-none {
+    display: none;
 }
 
 .pt-173 {
@@ -733,7 +734,7 @@ textarea::placeholder {
 }
 
 .mw-900 {
-    max-width: 900px;
+    max-width: 893px;
 }
 
 .font-ll {
@@ -865,8 +866,28 @@ textarea::placeholder {
         padding-right: 12px;
     }
 
+    .dis-sm-flex {
+        display: flex;
+    }
+
     .mt-sm-0 {
         margin-top: 0;
+    }
+
+    .top-sm-43 {
+        top: 43%;
+    }
+
+    /* .right-sm-4 {
+        right: 4%;
+    } */
+
+    .fs-sm-45 {
+        font-size: 45px;
+    }
+
+    .right-sm-10 {
+        right: 10%;
     }
 }
 
@@ -875,6 +896,10 @@ textarea::placeholder {
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .fs-md-50 {
+        font-size: 50px;
     }
 
     .col-md-9 {
@@ -890,6 +915,14 @@ textarea::placeholder {
     .ml-sm-32 {
         margin-left: 32px;
     }
+
+    .top-md-44 {
+        top: 44%;
+    }
+
+    .right-md-9 {
+        right: 9%;
+    }
 }
 
 @media (min-width:992px) {
@@ -897,6 +930,10 @@ textarea::placeholder {
         width: 50%;
         padding-left: 12px;
         padding-right: 12px;
+    }
+
+    .w-lg-100 {
+        width: 100%;
     }
 
     .col-lg-3 {
@@ -919,6 +956,21 @@ textarea::placeholder {
 
     .col-lg-4 {
         width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .fs-lg-64 {
+        font-size: 64px;
+    }
+
+
+    .top-lg-50 {
+        top: 50%;
+    }
+
+    .col-lg-9 {
+        width: 75%;
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -957,6 +1009,18 @@ textarea::placeholder {
 
     .ml-lg-32 {
         margin-left: 32px;
+    }
+
+    .dis-lg-flex {
+        display: flex;
+    }
+
+    .right-lg-0 {
+        right: 0;
+    }
+
+    .dis-infl {
+        display: inline-flex;
     }
 }
 
