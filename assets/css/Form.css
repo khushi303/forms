@@ -639,7 +639,7 @@ textarea::placeholder {
 }
 
 .bg-img-head {
-    background-image: url(/assets/images/header-img.png);
+    background-image: url(/assets/images/header-bg-img.png);
     object-fit: cover;
     background-repeat: no-repeat;
     background-size: cover;
@@ -718,8 +718,22 @@ textarea::placeholder {
     position: relative;
 }
 
+.dis-infl {
+    display: inline-flex;
+}
+
 .pos-a {
     position: absolute;
+    right: 0;
+    top: 44%;
+}
+
+.pt-173 {
+    padding-top: 173px;
+}
+
+.mw-900 {
+    max-width: 900px;
 }
 
 .font-ll {
