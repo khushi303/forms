@@ -704,7 +704,7 @@ textarea::placeholder {
 .font-sed {
     color: #FFF;
     font-family: 'Poppins', sans-serif;
-    font-size: 40px;
+    font-size: 37px;
     font-style: normal;
     font-weight: 700;
     line-height: 150.5%;
@@ -858,6 +858,10 @@ textarea::placeholder {
     flex-direction: column;
 }
 
+.ml-12 {
+    margin-left: 12px;
+}
+
 
 @media (min-width:576px) {
     .col-sm-6 {
@@ -888,6 +892,10 @@ textarea::placeholder {
 
     .right-sm-10 {
         right: 10%;
+    }
+
+    .text-align-sm-left {
+        text-align: left;
     }
 }
 
@@ -922,6 +930,10 @@ textarea::placeholder {
 
     .right-md-9 {
         right: 9%;
+    }
+
+    .pb-md-0 {
+        padding-bottom: 0;
     }
 }
 
@@ -1044,8 +1056,12 @@ textarea::placeholder {
     }
 
     .text-align-xl-left {
-        text-align: center;
+        text-align: left;
     }
+
+    /* .text-align-center {
+        text-align: center;
+    } */
 
     .justify-content-xl-start {
         justify-content: start;
@@ -1109,5 +1125,13 @@ textarea::placeholder {
 
     .z-index-2 {
         z-index: 2;
+    }
+
+    .pos-fix {
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background: transparent;
     }
 }
