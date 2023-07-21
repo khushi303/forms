@@ -25,7 +25,7 @@
 }
 
 .container {
-    max-width: 1300px;
+    max-width: 1320px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 12px;
@@ -160,8 +160,8 @@
     font-weight: 700;
     font-size: 12px;
     line-height: 150%;
-    min-width: 90px;
-    min-height: 62px;
+    width: 100%;
+    height: 100%;
 }
 
 .pt-90 {
@@ -309,6 +309,10 @@
 
 .mb-37 {
     margin-bottom: 37px;
+}
+
+.ml-148 {
+    margin-left: 148px;
 }
 
 input {
@@ -478,7 +482,7 @@ textarea::placeholder {
 .font-sh {
     color: #2C49FE;
     font-family: 'Poppins', sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -512,7 +516,7 @@ textarea::placeholder {
 .pos-abso {
     position: absolute;
     top: -41px;
-    left: 91px;
+    left: 92px;
 }
 
 .mt-50 {
@@ -523,7 +527,7 @@ textarea::placeholder {
     color: #2D3CAE;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -795,7 +799,6 @@ textarea::placeholder {
 }
 
 .font-go {
-    color: #2C49FE;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -804,20 +807,11 @@ textarea::placeholder {
 }
 
 .btn-go {
-    width: 185px;
-    height: 70px;
+    padding: 20px 20px;
+    border: 2px solid transparent;
     border-radius: 150px;
-    border: none;
-    background: #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.row-blue {
-    border-radius: 150px;
-    background: rgba(44, 73, 254, 0.74);
-    border: none;
+    background-color: white;
+    color: #2C49FE;
 }
 
 .mt-145 {
@@ -832,26 +826,26 @@ textarea::placeholder {
     margin-left: 17px;
 }
 
+.pb-11 {
+    padding-bottom: 11px;
+}
+
+.pb-12 {
+    padding-bottom: 12px;
+}
+
 .wh {
     width: 962px;
     height: 108px;
 }
 
-.p-rel {
-    position: relative;
-}
-
-.p-rel::after {
-    content: '';
-    position: absolute;
-    width: 3px;
-    height: 74px;
-    right: 0;
-    background: #FFFFFF;
-}
-
 .cardbox {
     padding: 20px;
+    border-radius: 50px;
+    background: rgba(44, 73, 254, 0.74);
+    border: none;
+    height: 100%;
+    width: 100%;
 }
 
 .flex-dir {
@@ -860,6 +854,51 @@ textarea::placeholder {
 
 .ml-12 {
     margin-left: 12px;
+}
+
+.py-8 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.cardBtn.btnFill {
+    padding: 20px 20px;
+    border: 2px solid transparent;
+    border-radius: 150px;
+    background-color: white;
+    color: #2C49FE;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.p-24 {
+    padding: 24px;
+}
+
+.justify-content-end {
+    justify-content: end;
+}
+
+.line {
+    position: relative;
+}
+
+.lin {
+    position: relative;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.line1 {
+    position: relative;
 }
 
 
@@ -897,11 +936,87 @@ textarea::placeholder {
     .text-align-sm-left {
         text-align: left;
     }
+
+    .col-sm-10 {
+        width: 83.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .w-sm-50 {
+        width: 50%;
+    }
+
+    .card-2 {
+        position: relative;
+    }
+
+    .card-2::after {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        top: 50%;
+        left: 0;
+        background-color: white;
+        transform: translateY(-50%);
+    }
+
+    .card-2::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 3px;
+        top: 0;
+        left: 50%;
+        background-color: white;
+        transform: translateX(-50%);
+    }
+
+    .col-sm-10 {
+        width: 83.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .w-sm-50 {
+        width: 50%;
+    }
+
+    .line1::after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        height: 100%;
+        background-color: #FFFFFF;
+        left: 50%;
+    }
+
+    .line1::before {
+        content: "";
+        position: absolute;
+        height: 3px;
+        width: 93%;
+        background: #FFFFFF;
+        bottom: 60%;
+    }
 }
 
 @media (min-width:768px) {
     .col-md-6 {
         width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-md-3 {
+        width: 25%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-md-4 {
+        width: 33.33%;
         padding-left: 12px;
         padding-right: 12px;
     }
@@ -934,6 +1049,49 @@ textarea::placeholder {
 
     .pb-md-0 {
         padding-bottom: 0;
+    }
+
+    .card::before {
+        content: unset;
+    }
+
+    .card::after {
+        content: unset;
+    }
+
+    .border-md-both {
+        border-left: 2px solid white;
+        border-right: 2px solid white;
+    }
+
+    .w-md-33 {
+        width: 33.33%;
+    }
+
+    .line::after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        background-color: #FFFFFF;
+        height: 160%;
+        right: 0;
+    }
+
+    .line::before {
+        content: "";
+        position: absolute;
+        width: 3px;
+        background-color: #FFFFFF;
+        height: 160%;
+        left: 0;
+    }
+
+    .line1::after {
+        content: unset;
+    }
+
+    .line1::before {
+        content: unset;
     }
 }
 
@@ -1034,6 +1192,68 @@ textarea::placeholder {
     .dis-infl {
         display: inline-flex;
     }
+
+    .br-lg-150 {
+        border-radius: 150px;
+    }
+
+    .justify-content-lg-end {
+        justify-content: end;
+    }
+
+    .cardBox {
+        border-width: 0px solid #FFFFFF;
+        border-radius: 150px;
+        padding: 20px;
+    }
+
+
+    .border-lg-right {
+        border-right: 2px solid white;
+    }
+
+    .w-lg-25 {
+        width: 25%;
+    }
+
+    .ml-lg-148 {
+        margin-left: 148px;
+    }
+
+    .line::after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        background-color: #FFFFFF;
+        height: 160%;
+        right: 0;
+    }
+
+    .line::before {
+        content: "";
+        position: absolute;
+        width: 3px;
+        background-color: #FFFFFF;
+        height: 160%;
+        left: 0;
+    }
+
+    .lin::after {
+        content: "";
+        position: absolute;
+        width: 3px;
+        background-color: #FFFFFF;
+        height: 160%;
+        right: 0;
+    }
+
+    .h-lg-108 {
+        height: 108px;
+    }
+
+    .mb-lg-15 {
+        margin-bottom: 15px;
+    }
 }
 
 @media (min-width:1200px) {
@@ -1073,6 +1293,10 @@ textarea::placeholder {
 
     .ml-xl-32 {
         margin-left: 32px;
+    }
+
+    .justify-content-xl-end {
+        justify-content: end;
     }
 }
 
