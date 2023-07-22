@@ -1264,6 +1264,10 @@ footer a {
     .mb-lg-15 {
         margin-bottom: 15px;
     }
+
+    .left-lg-9 {
+        left: -9px;
+    }
 }
 
 @media (min-width:1200px) {
