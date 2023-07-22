@@ -1111,6 +1111,14 @@ button {
     .line1::before {
         content: unset;
     }
+
+    .justify-content-md-start {
+        justify-content: start;
+    }
+
+    .justify-content-md-end {
+        justify-content: end;
+    }
 }
 
 @media (min-width:992px) {
