@@ -901,6 +901,16 @@ textarea::placeholder {
     position: relative;
 }
 
+footer a {
+    width: 100%;
+    display: inline-block;
+}
+
+.position-a {
+    position: absolute;
+    right: 30px;
+    bottom: 22px;
+}
 
 @media (min-width:576px) {
     .col-sm-6 {
@@ -1356,6 +1366,6 @@ textarea::placeholder {
         left: 0;
         right: 0;
         z-index: 1;
-        background: transparent;
+        background: #1e71ff79;
     }
 }
