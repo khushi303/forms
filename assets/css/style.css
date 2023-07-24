@@ -807,7 +807,11 @@ textarea::placeholder {
 }
 
 .btn-go {
-    padding: 20px 20px;
+    width: 185px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border: 2px solid transparent;
     border-radius: 150px;
     background-color: white;
