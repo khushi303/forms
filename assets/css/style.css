@@ -320,12 +320,17 @@ input {
     color: rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(0, 0, 0, 0.4);
     border-radius: 5px;
-    padding: 10px 17px 8px 17px;
+    padding: 10px;
     outline: unset;
 }
 
 input::placeholder {
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(0, 0, 0, 0.70);
+    font-family: ' Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 textarea {
@@ -339,6 +344,11 @@ textarea {
 
 textarea::placeholder {
     color: rgba(0, 0, 0, 0.7);
+    font-family: ' Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
 .font-si {
@@ -497,8 +507,8 @@ textarea::placeholder {
 }
 
 .mwh {
-    min-width: 260px;
-    min-height: 198px;
+    max-width: 260px;
+    max-height: 198px;
 }
 
 .box {
@@ -527,7 +537,7 @@ textarea::placeholder {
     color: #2D3CAE;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    font-size: 10px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%;
@@ -550,8 +560,8 @@ textarea::placeholder {
 
 .pos-absolute {
     position: absolute;
-    top: -41px;
-    left: 91px;
+    top: -20%;
+    left: 35%;
 }
 
 .pos-rel {
@@ -560,8 +570,12 @@ textarea::placeholder {
 
 .pos-absolu {
     position: absolute;
-    top: -41px;
-    left: 91px;
+    top: -20%;
+    left: 35%;
+}
+
+.justify-content-start {
+    justify-content: start;
 }
 
 .ml-30 {
@@ -844,12 +858,12 @@ textarea::placeholder {
 }
 
 .cardbox {
-    padding: 20px;
     border-radius: 50px;
     background: rgba(44, 73, 254, 0.74);
     border: none;
     height: 100%;
     width: 100%;
+    padding: 25px 14px !important;
 }
 
 .flex-dir {
@@ -863,6 +877,10 @@ textarea::placeholder {
 .py-8 {
     padding-top: 8px;
     padding-bottom: 8px;
+}
+
+.gap-20 {
+    gap: 20px;
 }
 
 .cardBtn.btnFill {
@@ -883,6 +901,14 @@ textarea::placeholder {
 
 .p-24 {
     padding: 24px;
+}
+
+.pl-15 {
+    padding-left: 15px !important;
+}
+
+.mr-10 {
+    margin-right: 10px;
 }
 
 .justify-content-end {
@@ -924,6 +950,10 @@ button {
     gap: 50px;
 }
 
+.pl-16 {
+    padding-left: 16px;
+}
+
 @media (min-width:576px) {
     .col-sm-6 {
         width: 50%;
@@ -937,6 +967,10 @@ button {
 
     .mt-sm-0 {
         margin-top: 0;
+    }
+
+    .mr-sm-0 {
+        margin-right: 0;
     }
 
     .top-sm-43 {
@@ -1020,7 +1054,15 @@ button {
         height: 3px;
         width: 93%;
         background: #FFFFFF;
-        bottom: 60%;
+        bottom: 53%;
+    }
+
+    .justify-content-sm-end {
+        justify-content: end;
+    }
+
+    .justify-content-sm-start {
+        justify-content: start;
     }
 }
 
