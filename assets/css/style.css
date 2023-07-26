@@ -335,7 +335,7 @@ input::placeholder {
 
 textarea {
     border-radius: 5px;
-    padding: 10px 17px 8px 17px;
+    padding: 10px;
     color: rgba(0, 0, 0, 0.7);
     resize: none;
     width: 100%;
@@ -1338,49 +1338,9 @@ button {
     .left-lg-9 {
         left: -9px;
     }
-}
 
-@media (min-width:1200px) {
-    .col-xl-6 {
-        width: 50%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .col-xl-7 {
-        width: 58.33%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .col-xl-5 {
-        width: 41.66%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-
-    .text-align-xl-left {
-        text-align: left;
-    }
-
-    /* .text-align-center {
-        text-align: center;
-    } */
-
-    .justify-content-xl-start {
-        justify-content: start;
-    }
-
-    .mt-xl-0 {
-        margin-top: 0;
-    }
-
-    .ml-xl-32 {
-        margin-left: 32px;
-    }
-
-    .justify-content-xl-end {
-        justify-content: end;
+    .w-lg-80 {
+        width: 80%;
     }
 }
 
