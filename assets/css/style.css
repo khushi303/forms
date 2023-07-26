@@ -416,6 +416,14 @@ textarea::placeholder {
     box-shadow: 2px 9px 32px 0px rgba(0, 0, 0, 0.06);
 }
 
+nav a:focus {
+    font-weight: 500;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
 .pxy-card {
     padding-top: 10px;
     padding-left: 13px;
